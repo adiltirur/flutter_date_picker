@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 const String DATE_PICKER_LOCALE_DEFAULT = 'zh';
 
 /// Default value of date format
-const String DATE_PICKER_FORMAT_DEFAULT = 'yyyy-mm-dd';
+const String DATE_PICKER_FORMAT_DEFAULT = 'dd-mm-yyyy';
 
 /// The height of DatePicker
 const double DATE_PICKER_HEIGHT = 210.0;
