@@ -99,8 +99,8 @@ class _PickerBottomSheetState extends State<PickerBottomSheet> {
                 Checkbox(
                   value: _showTitleActions,
                   onChanged: (value) => setState(() {
-                        _showTitleActions = value;
-                      }),
+                    _showTitleActions = value;
+                  }),
                 )
               ],
             ),
@@ -137,10 +137,12 @@ class _PickerBottomSheetState extends State<PickerBottomSheet> {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  Text('Selected Date:', style: Theme.of(context).textTheme.subhead),
+                  Text('Selected Date:',
+                      style: Theme.of(context).textTheme.subtitle1),
                   Container(
                     padding: EdgeInsets.only(left: 12.0),
-                    child: Text('$_datetime', style: Theme.of(context).textTheme.title),
+                    child: Text('$_datetime',
+                        style: Theme.of(context).textTheme.caption),
                   ),
                 ],
               ),

@@ -81,7 +81,7 @@ class DatePicker {
         onCancel: onCancel,
         locale: locale,
         dateFormat: dateFormat,
-        theme: Theme.of(context, shadowThemeOnly: true),
+        theme: Theme.of(context),
         barrierLabel:
             MaterialLocalizations.of(context).modalBarrierDismissLabel,
       ),

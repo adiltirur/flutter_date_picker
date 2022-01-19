@@ -44,5 +44,5 @@ flutter:
   # see https://flutter.io/custom-fonts/#from-packages
 
 environment:
-  sdk: ">=1.19.0 <3.0.0"
-  flutter: ">=0.4.1 <2.0.0"
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=0.4.1 <2.5.3"

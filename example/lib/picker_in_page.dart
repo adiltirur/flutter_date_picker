@@ -45,14 +45,14 @@ class _PickerInPageState extends State<PickerInPage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Text('Selected Date:',
-                    style: Theme.of(context).textTheme.subhead),
+                    style: Theme.of(context).textTheme.subtitle1),
                 Container(
                   padding: EdgeInsets.only(left: 12.0),
                   child: Text(
                     _currDateTime != null
                         ? '${_currDateTime.year}-${_currDateTime.month}-${_currDateTime.day}'
                         : '',
-                    style: Theme.of(context).textTheme.title,
+                    style: Theme.of(context).textTheme.caption,
                   ),
                 ),
               ],
