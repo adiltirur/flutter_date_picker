@@ -138,12 +138,12 @@ class _DatePickerWidgetState extends State<DatePickerWidget> {
         children: <Widget>[
           Container(
             height: DATE_PICKER_TITLE_HEIGHT,
-            child: FlatButton(
+            child: TextButton(
                 child: cancelWidget, onPressed: () => _onPressedCancel()),
           ),
           Container(
             height: DATE_PICKER_TITLE_HEIGHT,
-            child: FlatButton(
+            child: TextButton(
                 child: confirmWidget, onPressed: () => _onPressedConfirm()),
           ),
         ],
