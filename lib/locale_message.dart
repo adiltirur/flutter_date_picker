@@ -146,7 +146,7 @@ class LocaleMessage {
   }
 
   /// Get locale language
-  static String _getLocaleLang(String locale) {
+  static String _getLocaleLang(String? locale) {
     return locale == null ? '' : locale.split('_').first;
   }
 }
