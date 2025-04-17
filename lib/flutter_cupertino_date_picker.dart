@@ -48,6 +48,7 @@ class DatePicker {
         cancel: cancel ?? const SizedBox(),
         confirm: confirm ?? const SizedBox(),
         onCancel: onCancel ?? () {},
+        onChanged2: onChanged,
         locale: locale,
         dateFormat: dateFormat,
         theme: Theme.of(context),
